@@ -1,0 +1,81 @@
+.cursor {
+    cursor: pointer;
+}
+
+.myContainer {
+    max-width: 1000px;
+    margin: auto;
+}
+
+body {
+    background-color: #f9f9f9;
+    font: 500 23px/27px "Roboto Medium",MS Sans Serif4,Geneva,sans-serif;
+}
+
+.glaw_header {
+    background-color: #494949;
+}
+
+.header_span {
+    font-size: 15px;
+}
+
+.button_header {
+    background: #d83033;
+    background: linear-gradient(to top,#d83033 0%,#d0292c 49%,#e84547 49%,#ec4143 100%);
+    background: linear-gradient(to top,#e24245 0%,#cc4548 49%,#e66567 49%,#f36a6b 100%);
+    background: linear-gradient(to top,#cc4649 0%,#d64f52 49%,#e66567 49%,#f36a6b 100%);
+    border-radius: 3px;
+    box-shadow: 4px 4px 13px 0 rgb(50 50 50 / 67%);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.button_header:hover, .header_div_auth:hover {
+    opacity: 0.9;
+    color: white;
+    margin-top: 2px;
+    border: none !important;
+}
+
+.header_img {
+    width: 15px;
+    height: 15px;
+}
+
+.header_div_auth {
+    color: #fff;
+    font-weight: 600;
+    opacity: 1 !important;
+    font-size: 15px;
+}
+
+.header_main {
+    background: #dfe1e0 url("/src/main.jpg") no-repeat 50% 0;
+}
+
+.menu_header:hover {
+    --bs-bg-opacity: 0.9 !important;
+}
+
+.menu_header2:hover {
+    --bs-bg-opacity: 0.5 !important;
+}
+
+.span_headerFixed:hover {
+    text-decoration: underline !important;
+}
+
+.img_plus {
+    opacity: 0.7;
+}
+
+.img_plus:hover {
+    opacity: 1;
+}
+
+.menu_left {
+    height:inherit !important;
+    background-color: red !important;
+}
